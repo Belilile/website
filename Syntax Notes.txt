@@ -1,0 +1,11 @@
+
+head - The text listed in the tab of your website
+body - The main sinew of your site
+
+<ul> </ul>
+Unnumbered list. creates a bullpointed list containing the content held within it as <li> ' __ ' </li>
+<ol> </ol>
+Numbered list. Same as above.
+<!-- 'content here is commented out' --> 
+<img src="linktocontent.png" alt="a description of the file in case of a failure to load">
+<href> links to a webaddress	
