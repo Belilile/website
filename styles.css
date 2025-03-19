@@ -1,21 +1,28 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 100px;
-    width: 100%;
+    margin-top: 50px;
     height: 100%;
+    width: auto;
     text-align: center;
     background-color: rgb(65, 128, 160);
+    background-image: url(images/Building69/WalWRoofl.gif);
+    image-rendering: pixelated;
+    background-size: 100%;
+
 }
 
 .portraits {
-    padding: 100px;
+    padding: 400px;
+    image-rendering: pixelated;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
 
-/* .flex-row-1 {
+.flex-row-1 {
+    height: 250px;
+    width: auto;
     padding: 50px;
     display: flex;
     justify-content: space-between;
@@ -23,11 +30,13 @@ body {
 
 
 .flex-row-2 {
+    height: 250px;
+    width: auto;
     padding: 50px;
     display: flex;
     justify-content: space-between;
 
-} */
+}
 
 .text {
     animation: color-change 0.8s infinite
@@ -40,3 +49,34 @@ body {
     100% { color: red; }
 }
 
+/* .scrollbar {
+    border: 2px solid black;
+    border-radius: 3px;
+    left: 0px;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    position: absolute;
+    animation: move-left-to-right linear 20s infinite;
+    position: fixed;
+    min-height: 82px;
+} */
+
+form {
+    height: fit-content;
+    border: 50px;
+}
+
+/* use this one to move from left to right direction */
+@keyframes move-left-to-right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
